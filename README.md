@@ -14,3 +14,8 @@ InvenTree is an open-source inventory management system which provides intuitive
 * 请允许我使用中文
 * 新手程序员，多有不足，欢迎提出宝贵意见
 * 欢迎帮忙维护代码
+
+### 程序使用环境以及工具
+* Python 3.11
+* juypter notebook （我猜python ide同样可以运行）
+### 所需要的 python lib
