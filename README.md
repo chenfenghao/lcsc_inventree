@@ -31,6 +31,8 @@ InvenTree is an open-source inventory management system which provides intuitive
 然后通过Beautifulsoup库对网页信息进行解析，解析完使用pandas采用dataframe形式储存，再使用requests下载图片，最后调用inventree进行创建零件、上传等操作。
 ### 具体操作
 运行前需要准备的东西：
-*
+* `
 *在你程序的同个文件夹下创建一个名为“lc”的文件夹用来存放下载的元器件的图片（这个部分没有使用用户自定义，如果有必要可以修改）
 ![login](login.png)
+
+> :warning:  Sorry, the usage method is being written, you can contact me via email
