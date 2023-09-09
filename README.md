@@ -30,4 +30,4 @@ InvenTree is an open-source inventory management system which provides intuitive
 技术难度挺大的，也没有必要，所以选择了更简单高效的方法：“手动”，只需要Ctrl+C Ctrl+V就完美避开这个技术难点，只是不优雅。<br>
 然后通过Beautifulsoup库对网页信息进行解析，解析完使用pandas采用dataframe形式储存，再使用requests下载图片，最后调用inventree进行创建零件、上传等操作。
 ### 具体操作
-
+![alt 属性文本](login.png)
