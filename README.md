@@ -25,12 +25,9 @@ InvenTree is an open-source inventory management system which provides intuitive
 * beautifulsoup 4.12.2
 * requests 2.13.0
 ### 程序思路/框架
-实在忍受不了一个接一个手动输元器件信息入到inventre中，一直想着用省时省力的方法。还好，官方提供了python api。
+忍受不了一个接一个手动输元器件信息入到inventre中，一直想着用省时省力的方法。还好，官方提供了python api。
 怎么获取LCSC的订单里的元器件的具体信息？这让我想到了爬虫，采用爬虫程序对网页信息进行分析。但是LCSC自动获取订单信息需要登录信息等等原因，
 技术难度挺大的，也没有必要，所以选择了更简单高效的方法：“手动”，只需要Ctrl+C Ctrl+V就完美避开这个技术难点，只是不优雅。<br>
 然后通过Beautifulsoup库对网页信息进行解析，解析完使用pandas采用dataframe形式储存，再使用requests下载图片，最后调用inventree进行创建零件、上传等操作。
-### 具体操作
-运行前需要准备的东西：
-* `
-*在你程序的同个文件夹下创建一个名为“lc”的文件夹用来存放下载的元器件的图片（这个部分没有使用用户自定义，如果有必要可以修改）
+
 > :warning: Sorry, the usage method is being written, you can contact me via email 1346668364@qq.com
